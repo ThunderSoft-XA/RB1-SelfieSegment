@@ -1,0 +1,1 @@
+The program captures real-time image data from the onboard camera of the RB1 device, splits the characters in the image, and fuses them into the pre-prepared background picture. In the actual scenario, there is a glass wall behind the developer, but in the example we have replaced the background with a field of snow.

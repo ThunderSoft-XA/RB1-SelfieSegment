@@ -1,0 +1,19 @@
+Model Type
+Convolutional Neural Network
+
+Model Architecture
+Convolutional Neural Network: MobileNetV3-like with customized decoder blocks for real-time performance.
+
+Input(s)
+General model: A frame of video or an image, represented as a 256 x 256 x 3 tensor.
+
+Landscape model: A 144 x 256 x 3 tensor. 
+
+Channels order: RGB with values in [0.0, 1.0].
+
+
+
+Output(s)
+Generaal model: 256 x 256 x 1 tensor with a mask of person, where values are in range [0, 1.0].
+
+Landscape model: 144 x 256 x 1 tensor with a mask of person, where values are in range [0, 1.0].
